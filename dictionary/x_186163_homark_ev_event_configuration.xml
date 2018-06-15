@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Event Configuration " max_length="40" name="x_186163_homark_ev_event_configuration" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Alternative Event Manager" max_length="32" name="alternative_event_manager" reference="sys_user" type="reference"/>
+        <element label="Event Description" max_length="100" name="event_description" type="string"/>
+        <element label="Event End Date" max_length="40" name="event_end_date" type="glide_date_time"/>
+        <element label="Event Entry Limit" max_length="40" name="event_entry_limit" type="integer"/>
+        <element label="Event Location" max_length="32" name="event_location" reference="cmn_location" type="reference"/>
+        <element label="Event Manager / Planner" max_length="32" name="event_manager_planner" reference="sys_user" type="reference"/>
+        <element label="Event Max Capacity" max_length="40" name="event_max_capacity" type="integer"/>
+        <element label="Event Min Capacity" max_length="40" name="event_min_capacity" type="integer"/>
+        <element label="Event Name" max_length="40" name="event_name" type="string"/>
+        <element label="Event Parent Number" max_length="40" name="event_parent_number" type="string"/>
+        <element label="Event Start Date" max_length="40" name="event_start_date" type="glide_date_time"/>
+        <element label="Event Template" max_length="32" name="event_template" reference="sys_template" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <index name="index">
+            <element name="event_manager_planner"/>
+        </index>
+        <index name="index2">
+            <element name="event_location"/>
+        </index>
+        <index name="index3">
+            <element name="alternative_event_manager"/>
+        </index>
+        <index name="index4">
+            <element name="event_template"/>
+        </index>
+    </element>
+</database>

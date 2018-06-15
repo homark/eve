@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="event_manager_communication" label="Event Manager Communication" language="en" table="x_186163_homark_ev_event_security">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>event_manager_communication</element>
+            <help/>
+            <hint/>
+            <label>Event Manager Communication</label>
+            <language>en</language>
+            <name>x_186163_homark_ev_event_security</name>
+            <plural>Event Manager Communications</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-15 22:55:36</sys_created_on>
+            <sys_id>7d6232984f7213004c80aa2f9310c746</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Event Manager Communication</sys_name>
+            <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+            <sys_update_name>sys_documentation_x_186163_homark_ev_event_security_event_manager_communication_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-15 22:55:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

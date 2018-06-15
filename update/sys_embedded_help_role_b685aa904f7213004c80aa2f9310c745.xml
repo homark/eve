@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_186163_homark_ev.event_configuration_user" name="x_186163_homark_ev.event_configuration_user">6a85aa904f7213004c80aa2f9310c742</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-15 21:59:25</sys_created_on>
+        <sys_id>b685aa904f7213004c80aa2f9310c745</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6a85aa904f7213004c80aa2f9310c742</sys_name>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b685aa904f7213004c80aa2f9310c745</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-15 21:59:25</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

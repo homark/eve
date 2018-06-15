@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_186163_homark_ev.event_security_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>event_security_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-15 22:33:24</sys_created_on>
+        <sys_id>e45d62d44f7213004c80aa2f9310c7d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_186163_homark_ev.event_security_user</sys_name>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sys_user_role_e45d62d44f7213004c80aa2f9310c7d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-15 22:33:24</sys_updated_on>
+    </sys_user_role>
+</record_update>
