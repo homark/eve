@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Homark Event Security">aebaa19e4fb213004c80aa2f9310c740</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-21 23:00:35</sys_created_on>
+        <sys_id>58fca1de4fb213004c80aa2f9310c77a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Security.Homark Event Security</sys_name>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>io_set_item_58fca1de4fb213004c80aa2f9310c77a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-21 23:00:35</sys_updated_on>
+        <variable_set display_value="Event Security">9c0d69de4fb213004c80aa2f9310c782</variable_set>
+    </io_set_item>
+</record_update>

@@ -11,7 +11,7 @@
         <element label="Event Max Capacity" max_length="40" name="event_max_capacity" type="integer"/>
         <element label="Event Min Capacity" max_length="40" name="event_min_capacity" type="integer"/>
         <element label="Event Name" max_length="40" name="event_name" type="string"/>
-        <element label="Event Parent Number" max_length="40" name="event_parent_number" type="string"/>
+        <element label="Event Parent Number" max_length="40" name="event_parent_number" reference="x_186163_homark_ev_event_configuration" type="reference"/>
         <element label="Event Start Date" max_length="40" name="event_start_date" type="glide_date_time"/>
         <element label="Event Template" max_length="32" name="event_template" reference="sys_template" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>

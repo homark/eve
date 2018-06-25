@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_mobile_home_page_collection">
+    <sys_ui_mobile_home_page_collection action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hide_favorites_page>false</hide_favorites_page>
+        <name>Homark Collection</name>
+        <priority>100</priority>
+        <roles>x_186163_homark_ev.event_configuration_user,x_186163_homark_ev.event_karate_tournaments_user,x_186163_homark_ev.event_registry_user,x_186163_homark_ev.event_security_user,admin</roles>
+        <sys_class_name>sys_ui_mobile_home_page_collection</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-21 18:10:45</sys_created_on>
+        <sys_id>7caa2cd64f3213004c80aa2f9310c76a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Homark Collection</sys_name>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sys_ui_mobile_home_page_collection_7caa2cd64f3213004c80aa2f9310c76a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-21 18:21:32</sys_updated_on>
+    </sys_ui_mobile_home_page_collection>
+</record_update>

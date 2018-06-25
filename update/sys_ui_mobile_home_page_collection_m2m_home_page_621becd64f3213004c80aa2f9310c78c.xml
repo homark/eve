@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_mobile_home_page_collection_m2m_home_page">
+    <sys_ui_mobile_home_page_collection_m2m_home_page action="INSERT_OR_UPDATE">
+        <collection display_value="Homark Collection">7caa2cd64f3213004c80aa2f9310c76a</collection>
+        <home_page display_value="Homark Event Managment">0c1b2cd64f3213004c80aa2f9310c74c</home_page>
+        <order>1</order>
+        <sys_class_name>sys_ui_mobile_home_page_collection_m2m_home_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-21 18:12:19</sys_created_on>
+        <sys_id>621becd64f3213004c80aa2f9310c78c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Homark Event Managment.Homark Collection</sys_name>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sys_ui_mobile_home_page_collection_m2m_home_page_621becd64f3213004c80aa2f9310c78c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-21 18:12:19</sys_updated_on>
+    </sys_ui_mobile_home_page_collection_m2m_home_page>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>list-alt</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value="Homark Event Registration - Karate">bac11dde4f7213004c80aa2f9310c741</sc_cat_item>
+        <sc_category/>
+        <short_description>Karate tournament registration are for members only so new users must create an account. Please follow the steps outline in the karate registration form.</short_description>
+        <size>md</size>
+        <sp_column display_value="1">e65c41da4f7213004c80aa2f9310c74b</sp_column>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-21 20:38:15</sys_created_on>
+        <sys_id>e08c41da4f7213004c80aa2f9310c79f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Registration</sys_name>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sp_instance_link_e08c41da4f7213004c80aa2f9310c79f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-21 22:05:04</sys_updated_on>
+        <title>Registration</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=e08c41da4f7213004c80aa2f9310c79f"/>
+</record_update>

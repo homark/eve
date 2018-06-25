@@ -2,7 +2,7 @@
 <database>
     <element label="Event Security" max_length="40" name="x_186163_homark_ev_event_security" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Barcode" max_length="40" name="barcode" type="string"/>
+        <element attributes="barcode" label="Barcode" max_length="40" name="barcode" type="string"/>
         <element label="Event Manager Communication" max_length="200" name="event_manager_communication" type="string"/>
         <element label="Event Number" max_length="32" name="event_number" read_only="true" reference="x_186163_homark_ev_event_configuration" type="reference"/>
         <element label="First Name" max_length="40" name="first_name" read_only="true" type="string"/>

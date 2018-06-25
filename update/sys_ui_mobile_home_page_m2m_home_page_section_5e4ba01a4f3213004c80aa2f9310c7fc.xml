@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_mobile_home_page_m2m_home_page_section">
+    <sys_ui_mobile_home_page_m2m_home_page_section action="INSERT_OR_UPDATE">
+        <home_page display_value="Homark Event Managment">0c1b2cd64f3213004c80aa2f9310c74c</home_page>
+        <order>1</order>
+        <section display_value="karate Tournaments">893b2cd64f3213004c80aa2f9310c773</section>
+        <sys_class_name>sys_ui_mobile_home_page_m2m_home_page_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-21 18:13:06</sys_created_on>
+        <sys_id>5e4ba01a4f3213004c80aa2f9310c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Homark Event Managment.karate Tournaments</sys_name>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sys_ui_mobile_home_page_m2m_home_page_section_5e4ba01a4f3213004c80aa2f9310c7fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-21 18:13:06</sys_updated_on>
+    </sys_ui_mobile_home_page_m2m_home_page_section>
+</record_update>

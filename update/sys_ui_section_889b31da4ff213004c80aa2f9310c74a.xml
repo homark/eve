@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="889b31da4ff213004c80aa2f9310c74a" sys_domain="global" table="sys_ui_mobile_home_page_module" version="3" view="homark">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-22 00:03:51</sys_created_on>
+            <sys_id>849b31da4ff213004c80aa2f9310c74b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_ui_mobile_home_page_module" sys_domain="global" view="14247d924ff213004c80aa2f9310c7b6">889b31da4ff213004c80aa2f9310c74a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-22 00:03:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subtitle</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-22 00:03:51</sys_created_on>
+            <sys_id>0c9b31da4ff213004c80aa2f9310c74b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_ui_mobile_home_page_module" sys_domain="global" view="14247d924ff213004c80aa2f9310c7b6">889b31da4ff213004c80aa2f9310c74a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-22 00:03:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>module</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-22 00:03:51</sys_created_on>
+            <sys_id>8c9b31da4ff213004c80aa2f9310c74b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_ui_mobile_home_page_module" sys_domain="global" view="14247d924ff213004c80aa2f9310c7b6">889b31da4ff213004c80aa2f9310c74a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-22 00:03:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-22 00:03:51</sys_created_on>
+            <sys_id>009b31da4ff213004c80aa2f9310c74c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_ui_mobile_home_page_module" sys_domain="global" view="14247d924ff213004c80aa2f9310c7b6">889b31da4ff213004c80aa2f9310c74a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-22 00:03:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_scope</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-22 00:03:51</sys_created_on>
+            <sys_id>809b31da4ff213004c80aa2f9310c74c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_ui_mobile_home_page_module" sys_domain="global" view="14247d924ff213004c80aa2f9310c7b6">889b31da4ff213004c80aa2f9310c74a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-22 00:03:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-22 00:03:51</sys_created_on>
+            <sys_id>049b31da4ff213004c80aa2f9310c74c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_ui_mobile_home_page_module" sys_domain="global" view="14247d924ff213004c80aa2f9310c7b6">889b31da4ff213004c80aa2f9310c74a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-22 00:03:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>roles</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-22 00:03:51</sys_created_on>
+            <sys_id>849b31da4ff213004c80aa2f9310c74c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_ui_mobile_home_page_module" sys_domain="global" view="14247d924ff213004c80aa2f9310c7b6">889b31da4ff213004c80aa2f9310c74a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-22 00:03:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_ui_mobile_home_page_module</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-22 00:03:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>889b31da4ff213004c80aa2f9310c74a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_ui_mobile_home_page_module</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+            <sys_update_name>sys_ui_section_889b31da4ff213004c80aa2f9310c74a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-22 00:03:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Homark" name="homark">14247d924ff213004c80aa2f9310c7b6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

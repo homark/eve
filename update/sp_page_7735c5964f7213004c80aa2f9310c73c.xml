@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>homark_index</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-21 20:06:32</sys_created_on>
+        <sys_id>7735c5964f7213004c80aa2f9310c73c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>homark_index</sys_name>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sp_page_7735c5964f7213004c80aa2f9310c73c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-21 20:06:32</sys_updated_on>
+        <title>Homark</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=7735c5964f7213004c80aa2f9310c73c"/>
+</record_update>
