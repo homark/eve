@@ -5,7 +5,7 @@
         <element label="Barcode" max_length="40" name="barcode" read_only="true" type="string"/>
         <element label="Event Number" max_length="32" name="event_number" reference="x_186163_homark_ev_event_configuration" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element choice="1" label="Payment Status" max_length="40" name="payment_status" type="choice">
+        <element choice="3" label="Payment Status" max_length="40" name="payment_status" type="choice">
             <choice>
                 <element label="0" sequence="0" value="0"/>
                 <element label="1" sequence="1" value="1"/>
@@ -13,7 +13,7 @@
                 <element label="3" sequence="3" value="3"/>
             </choice>
         </element>
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element label="Registered" sequence="0" value="registered"/>
                 <element label="Waiting List" sequence="1" value="waiting list"/>

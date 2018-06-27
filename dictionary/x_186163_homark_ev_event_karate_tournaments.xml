@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="x_186163_homark_ev_event_registry" label="Event karate tournaments" max_length="40" name="x_186163_homark_ev_event_karate_tournaments" type="collection">
+        <element label="Date of Birth" max_length="40" name="dob" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Experience Levels" max_length="40" name="experiencelevels" type="string">
+            <choice>
+                <element label="Beginner" sequence="0" value="beginner"/>
+                <element label="Novice" sequence="1" value="novice"/>
+                <element label="Intermediate" sequence="2" value="intermediate"/>
+                <element label="Elite" sequence="3" value="elite"/>
+            </choice>
+        </element>
         <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
             <choice>
                 <element label="Female" sequence="0" value="female"/>
                 <element label="Male" sequence="1" value="male"/>
             </choice>
         </element>
+        <element label="Height (ft)" max_length="40" name="height" type="integer"/>
+        <element label="Weight (lbs)" max_length="40" name="weight" type="integer"/>
     </element>
 </database>
