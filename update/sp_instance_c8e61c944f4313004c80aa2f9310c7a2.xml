@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>.panel-heading, .panel-footer {
+  background-color: rgba(138, 143, 160, 0.6);
+  border-bottom: 0px solid transparent;
+  color: #fff;
+}
+
+.panel {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: none;
+}</css>
+        <glyph/>
+        <id/>
+        <order>4</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">c0e61c944f4313004c80aa2f9310c79b</sp_column>
+        <sp_widget display_value="Language Switch">af0f73105b0122000d7ec7ad31f91a27</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 21:51:47</sys_created_on>
+        <sys_id>c8e61c944f4313004c80aa2f9310c7a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sp_instance_c8e61c944f4313004c80aa2f9310c7a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 21:51:47</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c8e61c944f4313004c80aa2f9310c7a2"/>
+</record_update>

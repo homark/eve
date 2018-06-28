@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_search_source">
+    <sp_search_source action="INSERT_OR_UPDATE">
+        <advanced_typeahead_config>false</advanced_typeahead_config>
+        <condition table="kb_knowledge">kb_knowledge_base=fcfbe40a4fb213004c80aa2f9310c72b^kb_category=7c6c301c4f8313004c80aa2f9310c73a^EQ<item display_table="kb_knowledge_base" display_value="Homark Event Managment" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="fcfbe40a4fb213004c80aa2f9310c72b"/>
+            <item display_table="kb_category" display_value="Karate" endquery="false" field="kb_category" goto="false" newquery="false" operator="=" or="false" value="7c6c301c4f8313004c80aa2f9310c73a"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <data_fetch_script><![CDATA[(function(query) {
+  var results = [];
+  /* Calculate your results here. */
+  
+  return results;
+})(query);]]></data_fetch_script>
+        <display_fields/>
+        <enable_typeahead>true</enable_typeahead>
+        <id>Karate KB Search</id>
+        <is_scripted_source>false</is_scripted_source>
+        <name>Karate KB Search</name>
+        <page/>
+        <primary_display_field>active</primary_display_field>
+        <roles/>
+        <search_page_template><![CDATA[<div>
+  <a href="?id=form&sys_id={{item.sys_id}}&table={{item.table}}" class="h4 text-primary m-b-sm block">
+    <span ng-bind-html="highlight(item.primary, data.q)"></span>
+  </a>
+  <span class="text-muted" ng-repeat="f in item.fields | limitTo: 4">
+    <span class="m-l-xs m-r-xs" ng-if="!$first"> &middot; </span>
+    {{f.label}}: <span ng-bind-html="highlight(f.display_value, data.q)"></span>
+  </span>
+</div>]]></search_page_template>
+        <source_table>kb_knowledge</source_table>
+        <sys_class_name>sp_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-28 01:22:50</sys_created_on>
+        <sys_id>c6860dd44fc313004c80aa2f9310c721</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Karate KB Search</sys_name>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sp_search_source_c6860dd44fc313004c80aa2f9310c721</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-28 01:22:50</sys_updated_on>
+        <typeahead_glyph/>
+        <typeahead_template/>
+    </sp_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=c6860dd44fc313004c80aa2f9310c721"/>
+</record_update>

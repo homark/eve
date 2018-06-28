@@ -7,7 +7,7 @@
         <icon/>
         <kb_knowledge_base display_value="Homark Event Managment">fcfbe40a4fb213004c80aa2f9310c72b</kb_knowledge_base>
         <kb_knowledge_page/>
-        <login_page display_value="homark_landing_1">741dd3734f7213004c80aa2f9310c7a2</login_page>
+        <login_page display_value="homark_landing_page_karate">33d658944f4313004c80aa2f9310c7b1</login_page>
         <logo/>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
@@ -21,14 +21,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-20 23:39:26</sys_created_on>
         <sys_id>c68ba0c64fb213004c80aa2f9310c76a</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Homark Event Managment</sys_name>
         <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
         <sys_update_name>sp_portal_c68ba0c64fb213004c80aa2f9310c76a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-26 23:16:20</sys_updated_on>
+        <sys_updated_on>2018-06-27 21:54:31</sys_updated_on>
         <theme display_value="Stock">79315153cb33310000f8d856634c9c4b</theme>
         <title>Homark Event Managment</title>
         <url_suffix>eve</url_suffix>
