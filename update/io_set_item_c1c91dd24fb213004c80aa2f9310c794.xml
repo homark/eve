@@ -2,7 +2,7 @@
 <record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
-        <sc_cat_item display_value="Homark Event Registration - Karate">bac11dde4f7213004c80aa2f9310c741</sc_cat_item>
+        <sc_cat_item display_value="Event Registration - Karate Tournament">bac11dde4f7213004c80aa2f9310c741</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-21 21:36:11</sys_created_on>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>barcode_generator</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div>function printBarcode(){</div>
+<div>//This UI Action runs client-side, and so we gather parameters via client-side code</div>
+<div>&nbsp;</div>
+<div>//Sys_id of the barcode to generate from the Barcode Generator module</div>
+<div>//This value will be hard-coded in most cases</div>
+<div>var barcodeID = g_form.getUniqueValue();</div>
+<div>&nbsp;</div>
+<div>//Name of the table on which the record for barcoding resides, 'alm_asset' for example</div>
+<div>//This will be 'var tableName = g_form.getTableName();' in most cases</div>
+<div>var tableName = g_form.getValue('test_record_table');</div>
+<div>&nbsp;</div>
+<div>//Sys_id of record for barcoding</div>
+<div>//This will be 'var recID = g_form.getUniqueValue();' in most cases</div>
+<div>var recID = g_form.getValue('test_record');</div>
+<div>&nbsp;</div>
+<div>//Number of copies of the barcode to print</div>
+<div>var numPrint = 1;</div>
+<div>&nbsp;</div>
+<div>//True/false if the barcode should instantly print when loaded</div>
+<div>var instantPrint = true;</div>
+<div>&nbsp;</div>
+<div>//Build GlideDialogWindow according to preferences</div>
+<div>var dialog = new GlideDialogWindow('barcode_generator_home');</div>
+<div>dialog.setTitle('');</div>
+<div>dialog.setPreference("barcode_id", barcodeID);</div>
+<div>dialog.setPreference("rec_table", tableName);</div>
+<div>dialog.setPreference("rec_id", recID);</div>
+<div>dialog.setPreference("num_print", numPrint);</div>
+<div>dialog.setPreference("instant_print", instantPrint);</div>
+<div>dialog.render();</div>
+<div>}</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Karate Barcode</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>homa_feizi@yahoo.com</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Karate Test</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-09 04:28:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>77aa5eb34f4b53004c80aa2f9310c734</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Karate Barcode</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sysevent_email_action_77aa5eb34f4b53004c80aa2f9310c734</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-09 04:28:45</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

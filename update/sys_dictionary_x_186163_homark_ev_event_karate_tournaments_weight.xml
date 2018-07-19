@@ -10,7 +10,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Weight (lbs)</column_label>
+        <column_label>Weight</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -48,16 +48,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-26 22:00:30</sys_created_on>
-        <sys_id>424fc73b4f3213004c80aa2f9310c7e0</sys_id>
+        <sys_created_on>2018-07-06 22:28:30</sys_created_on>
+        <sys_id>e99572034f8313004c80aa2f9310c7a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Weight (lbs)</sys_name>
+        <sys_name>Weight</sys_name>
         <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
         <sys_update_name>sys_dictionary_x_186163_homark_ev_event_karate_tournaments_weight</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-26 22:00:30</sys_updated_on>
+        <sys_updated_on>2018-07-06 22:28:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

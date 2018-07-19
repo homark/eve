@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>show_barcode_dialog</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Homark Barcode Print</name>
+        <onclick>showBarcodeDialog()</onclick>
+        <order>100</order>
+        <script><![CDATA[function showBarcodeDialog(){
+	//This UI Action runs client-side, and so we gather parameters via client-side code
+	
+/*	var target = new GlideRecord('barcode_generator') ; 
+target.addQuery('name', 'REG0001006');
+target.query(); // Issue the query to the database to get relevant records 
+	var r=0;
+while (target.next()) { 
+  // add code here to process the incident record 
+	
+r = target.sys_id;
+	return r;
+}
+	*/
+	//Sys_id of the barcode to generate from the Barcode Generator module
+	//This value will be hard-coded in most cases
+	//var barcodeID ='9296e1924f5313004c80aa2f9310c7ff';
+	var barcodeID = g_form.getValue('barcode');
+		//g_form.getUniqueValue();
+	
+	//Name of the table on which the record for barcoding resides, 'alm_asset' for example
+	//This will be 'var tableName = g_form.getTableName();' in most cases
+	var tableName = '';
+		
+		//g_form.getValue('test_record_table');
+	
+	//Sys_id of record for barcoding
+	//This will be 'var recID = g_form.getUniqueValue();' in most cases
+	var recID = '';
+		//g_form.getValue('test_record');
+	
+	//Number of copies of the barcode to print (if asked to print)
+	var numPrint = 1;
+	
+	//True/false if the barcode should instantly print when loaded
+	var instantPrint = false;
+	
+	//Build GlideDialogWindow according to preferences
+	var dialog = new GlideDialogWindow('barcode_generator_home');
+	dialog.setTitle('Title');
+	dialog.setPreference("barcode_id", barcodeID);
+	dialog.setPreference("rec_table", tableName);
+	dialog.setPreference("rec_id", recID);
+	dialog.setPreference("num_print", numPrint);
+	dialog.setPreference("instant_print", instantPrint);
+	dialog.render();
+
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-09 06:41:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d393e374f8b53004c80aa2f9310c704</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Homark Barcode Print</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sys_ui_action_6d393e374f8b53004c80aa2f9310c704</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 18:26:04</sys_updated_on>
+        <table>x_186163_homark_ev_event_karate_tournaments</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

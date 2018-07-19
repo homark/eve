@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="security_status" table="x_186163_homark_ev_event_registry" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In</label>
+            <language>en</language>
+            <name>x_186163_homark_ev_event_registry</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 05:26:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8578a6bb4f4b53004c80aa2f9310c76c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 05:26:34</sys_updated_on>
+            <value>in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Out</label>
+            <language>en</language>
+            <name>x_186163_homark_ev_event_registry</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 05:26:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8578a6bb4f4b53004c80aa2f9310c76d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 05:26:34</sys_updated_on>
+            <value>out</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_186163_homark_ev_event_registry</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 05:11:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aaf46a3b4f4b53004c80aa2f9310c7e9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 05:26:34</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown</label>
+            <language>en</language>
+            <name>x_186163_homark_ev_event_registry</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 05:26:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8578a6bb4f4b53004c80aa2f9310c76e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 09:33:20</sys_updated_on>
+            <value>unknown</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Temporary Access</label>
+            <language>en</language>
+            <name>x_186163_homark_ev_event_registry</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 05:11:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6f46a3b4f4b53004c80aa2f9310c7e7</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 09:34:11</sys_updated_on>
+            <value>temporary access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>security_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Max Entry Reached</label>
+            <language>en</language>
+            <name>x_186163_homark_ev_event_registry</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 05:11:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aaf46a3b4f4b53004c80aa2f9310c7e8</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 09:35:08</sys_updated_on>
+            <value>max entry reached</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>security_status</element>
+            <name>x_186163_homark_ev_event_registry</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 05:11:22</sys_created_on>
+            <sys_id>66f46a3b4f4b53004c80aa2f9310c7e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>security_status</sys_name>
+            <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+            <sys_update_name>sys_choice_x_186163_homark_ev_event_registry_security_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 05:11:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

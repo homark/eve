@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Event Security" max_length="40" name="x_186163_homark_ev_event_security" type="collection">
+    <element audit="true" label="Event Security" max_length="40" name="x_186163_homark_ev_event_security" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="barcode" label="Barcode" max_length="40" name="barcode" type="string"/>
         <element label="Event Manager Communication" max_length="200" name="event_manager_communication" type="string"/>
@@ -8,8 +8,16 @@
         <element label="First Name" max_length="40" name="first_name" read_only="true" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" read_only="true" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element label="Photo" max_length="40" name="photo" read_only="true" type="user_image"/>
-        <element label="User ID" max_length="32" name="user_id" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Security Status" max_length="40" name="security_status" type="string">
+            <choice>
+                <element label="In" sequence="0" value="in"/>
+                <element label="Out" sequence="1" value="out"/>
+                <element label="Temporary Access" sequence="2" value="temporary"/>
+                <element label="Max Entry Reached" sequence="3" value="max"/>
+            </choice>
+        </element>
+        <element label="User ID" max_length="32" name="user_id" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status_scan" read_only="true" type="string">
             <choice>
                 <element label="In" sequence="0" value="in"/>

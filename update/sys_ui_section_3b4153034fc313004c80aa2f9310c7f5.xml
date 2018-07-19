@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Homark" section_id="3b4153034fc313004c80aa2f9310c7f5" sys_domain="global" table="catalog_script_client" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cat_variable</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-07 00:29:46</sys_created_on>
+            <sys_id>8651d3cf4f8313004c80aa2f9310c747</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Homark" display_value="Homark" name="catalog_script_client" sys_domain="global" view="Default view">3b4153034fc313004c80aa2f9310c7f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-07 00:29:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Homark</caption>
+            <header>false</header>
+            <name>catalog_script_client</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-07 00:29:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b4153034fc313004c80aa2f9310c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Homark</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+            <sys_update_name>sys_ui_section_3b4153034fc313004c80aa2f9310c7f5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-07 00:29:36</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

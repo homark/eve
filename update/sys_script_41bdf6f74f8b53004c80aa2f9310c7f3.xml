@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_186163_homark_ev_event_karate_tournaments</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_186163_homark_ev_event_karate_tournaments">payment_statusCHANGESTO1^status=registered^EQ<item endquery="false" field="payment_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="1"/>
+            <item endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="registered"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Homark Create Barcode Record</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	//var ticket = g_form.getValue('number');
+	var gr = new GlideRecord('barcode_generator');
+	//var ticket = g_form.getValue('number');
+gr.initialize(); 
+gr.name = current.number; 
+//gr.description = 'learn about GlideRecord'; 
+gr.insert();
+var bp = new GlideRecord('barcode_part');
+	//var ticket = g_form.getValue('number');
+bp.initialize(); 
+bp.value = current.number; 
+	bp.barcode_generator.setDisplayValue(current.number);
+//gr.description = 'learn about GlideRecord'; 
+bp.insert();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-09 07:00:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41bdf6f74f8b53004c80aa2f9310c7f3</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Homark Create Barcode Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>sys_script_41bdf6f74f8b53004c80aa2f9310c7f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-16 19:40:33</sys_updated_on>
+        <template>123TEXTQUERY321=-- value --^EQ</template>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=41bdf6f74f8b53004c80aa2f9310c7f3"/>
+</record_update>
