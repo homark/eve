@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Weapon" section_id="25444e534f1713004c80aa2f9310c79c" sys_domain="global" table="x_186163_homark_ev_event_karate_tournaments" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>elite_kobudo_short_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 18:30:41</sys_created_on>
+            <sys_id>a722e92c4f2313004c80aa2f9310c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weapon" display_value="Weapon" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">25444e534f1713004c80aa2f9310c79c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>elite_kobudo_long_description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 18:30:41</sys_created_on>
+            <sys_id>2b22e92c4f2313004c80aa2f9310c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weapon" display_value="Weapon" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">25444e534f1713004c80aa2f9310c79c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_weapon_description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 18:30:41</sys_created_on>
+            <sys_id>ab22e92c4f2313004c80aa2f9310c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weapon" display_value="Weapon" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">25444e534f1713004c80aa2f9310c79c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>long_weapon_description</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 18:30:41</sys_created_on>
+            <sys_id>2f22e92c4f2313004c80aa2f9310c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weapon" display_value="Weapon" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">25444e534f1713004c80aa2f9310c79c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 18:30:41</sys_created_on>
+            <sys_id>af22e92c4f2313004c80aa2f9310c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weapon" display_value="Weapon" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">25444e534f1713004c80aa2f9310c79c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_weapon_description.division_id</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 18:30:41</sys_created_on>
+            <sys_id>2322e92c4f2313004c80aa2f9310c7d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weapon" display_value="Weapon" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">25444e534f1713004c80aa2f9310c79c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>long_weapon_description.division_id</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 18:30:41</sys_created_on>
+            <sys_id>a322e92c4f2313004c80aa2f9310c7d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Weapon" display_value="Weapon" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">25444e534f1713004c80aa2f9310c79c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Weapon</caption>
+            <header>false</header>
+            <name>x_186163_homark_ev_event_karate_tournaments</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-19 23:47:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25444e534f1713004c80aa2f9310c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Weapon</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+            <sys_update_name>sys_ui_section_25444e534f1713004c80aa2f9310c79c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-19 23:47:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

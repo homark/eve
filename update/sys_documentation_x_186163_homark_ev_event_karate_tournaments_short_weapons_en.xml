@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="short_weapons" label="Short Weapons" language="en" table="x_186163_homark_ev_event_karate_tournaments">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>short_weapons</element>
+            <help/>
+            <hint/>
+            <label>Short Weapons</label>
+            <language>en</language>
+            <name>x_186163_homark_ev_event_karate_tournaments</name>
+            <plural>Short Weapons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-19 23:29:09</sys_created_on>
+            <sys_id>b420c2df4fd313004c80aa2f9310c70c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Short Weapons</sys_name>
+            <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+            <sys_update_name>sys_documentation_x_186163_homark_ev_event_karate_tournaments_short_weapons_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-19 23:29:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item/>
         <category/>
@@ -60,14 +60,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-07 01:00:35</sys_created_on>
         <sys_id>b058d3c34fc313004c80aa2f9310c7df</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Weapon</sys_name>
         <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
         <sys_update_name>item_option_new_b058d3c34fc313004c80aa2f9310c7df</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-12 23:22:50</sys_updated_on>
+        <sys_updated_on>2018-07-20 23:56:30</sys_updated_on>
         <table/>
         <tooltip/>
         <type>7</type>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Event Registration - Karate Tournament">bac11dde4f7213004c80aa2f9310c741</catalog_item>
+        <catalog_variable>IO:0893411f4f5313004c80aa2f9310c703</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-19 20:34:07</sys_created_on>
+        <sys_id>9708d51b4f9313004c80aa2f9310c7a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>team_kumite_description</sys_name>
+        <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_9708d51b4f9313004c80aa2f9310c7a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-19 20:39:26</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Unhide Team Section">d4b4bc934f5313004c80aa2f9310c792</ui_policy>
+        <variable>team_kumite_description</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

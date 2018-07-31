@@ -2,12 +2,12 @@
 <record_update table="sys_push_notif_app_install">
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
         <active>true</active>
-        <last_registered_on>2018-07-18 23:36:37</last_registered_on>
+        <last_registered_on>2018-07-20 18:36:10</last_registered_on>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-22 00:02:18</sys_created_on>
         <sys_id>a53bb99a4ff213004c80aa2f9310c7d7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>c539c3dce9e1aeb113db0a59f4bbe04960925db58e3bad65ad4510a3f922312e</sys_name>
         <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
         <sys_policy/>
@@ -16,7 +16,7 @@
         <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
         <sys_update_name>sys_push_notif_app_install_a53bb99a4ff213004c80aa2f9310c7d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-18 23:36:37</sys_updated_on>
+        <sys_updated_on>2018-07-20 18:36:10</sys_updated_on>
         <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
         <token>c539c3dce9e1aeb113db0a59f4bbe04960925db58e3bad65ad4510a3f922312e</token>
     </sys_push_notif_app_install>

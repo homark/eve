@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Kumite" section_id="2d444e534f1713004c80aa2f9310c79b" sys_domain="global" table="x_186163_homark_ev_event_karate_tournaments" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>non_elite_kumite_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-24 00:19:07</sys_created_on>
+            <sys_id>67e1faa44f2713004c80aa2f9310c7a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Kumite" display_value="Kumite" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">2d444e534f1713004c80aa2f9310c79b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-24 00:19:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>elite_kumite_description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-24 00:19:07</sys_created_on>
+            <sys_id>2fe1faa44f2713004c80aa2f9310c7a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Kumite" display_value="Kumite" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">2d444e534f1713004c80aa2f9310c79b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-24 00:19:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-24 00:19:07</sys_created_on>
+            <sys_id>afe1faa44f2713004c80aa2f9310c7a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Kumite" display_value="Kumite" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">2d444e534f1713004c80aa2f9310c79b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-24 00:19:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Kumite</caption>
+            <header>false</header>
+            <name>x_186163_homark_ev_event_karate_tournaments</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-19 23:47:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d444e534f1713004c80aa2f9310c79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Kumite</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
+            <sys_update_name>sys_ui_section_2d444e534f1713004c80aa2f9310c79b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-19 23:47:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -18,44 +18,100 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-06 22:28:30</sys_created_on>
+            <sys_created_on>2018-07-23 18:30:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2d9572034f8313004c80aa2f9310c7a1</sys_id>
+            <sys_id>4322e92c4f2313004c80aa2f9310c713</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_186163_homark_ev_event_karate_tournaments" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">d9b895b64f0313004c80aa2f9310c746</sys_ui_form>
-            <sys_ui_section caption="Personal Data" display_value="Personal Data" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">6d9572034f8313004c80aa2f9310c705</sys_ui_section>
+            <sys_ui_section caption="Seminars" display_value="Seminars" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">0322e92c4f2313004c80aa2f9310c70e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-19 00:05:40</sys_updated_on>
+            <sys_updated_on>2018-07-23 18:30:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-06 22:28:29</sys_created_on>
+            <sys_created_on>2018-07-19 23:47:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ad9572034f8313004c80aa2f9310c708</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>ed444e534f1713004c80aa2f9310c79f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_186163_homark_ev_event_karate_tournaments" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">d9b895b64f0313004c80aa2f9310c746</sys_ui_form>
-            <sys_ui_section caption="Event Data" display_value="Event Data" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">ed9572034f8313004c80aa2f9310c704</sys_ui_section>
+            <sys_ui_section caption="Team" display_value="Team" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">29444e534f1713004c80aa2f9310c79a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-06 22:28:29</sys_updated_on>
+            <sys_updated_on>2018-07-23 18:30:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-19 23:47:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35444e534f1713004c80aa2f9310c7bd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_186163_homark_ev_event_karate_tournaments" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">d9b895b64f0313004c80aa2f9310c746</sys_ui_form>
+            <sys_ui_section caption="Kata" display_value="Kata" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">25444e534f1713004c80aa2f9310c79b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-19 23:47:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd444e534f1713004c80aa2f9310c7c1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_186163_homark_ev_event_karate_tournaments" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">d9b895b64f0313004c80aa2f9310c746</sys_ui_form>
+            <sys_ui_section caption="Kumite" display_value="Kumite" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">2d444e534f1713004c80aa2f9310c79b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-19 23:47:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31444e534f1713004c80aa2f9310c7c7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_186163_homark_ev_event_karate_tournaments" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">d9b895b64f0313004c80aa2f9310c746</sys_ui_form>
+            <sys_ui_section caption="Weapon" display_value="Weapon" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">25444e534f1713004c80aa2f9310c79c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-06 22:28:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d9572034f8313004c80aa2f9310c7a1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_186163_homark_ev_event_karate_tournaments" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">d9b895b64f0313004c80aa2f9310c746</sys_ui_form>
+            <sys_ui_section caption="Personal Data" display_value="Personal Data" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">6d9572034f8313004c80aa2f9310c705</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-23 18:30:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-07-05 21:04:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>51b895b64f0313004c80aa2f9310c74a</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_186163_homark_ev_event_karate_tournaments" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">d9b895b64f0313004c80aa2f9310c746</sys_ui_form>
             <sys_ui_section caption="Activities" display_value="Activities" name="x_186163_homark_ev_event_karate_tournaments" sys_domain="global" view="Default view">d5b895b64f0313004c80aa2f9310c745</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-19 00:05:40</sys_updated_on>
+            <sys_updated_on>2018-07-23 18:30:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_186163_homark_ev_event_karate_tournaments</name>

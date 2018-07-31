@@ -23,7 +23,7 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>organization</name>
-        <order>900</order>
+        <order>55</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Organization</question_text>
@@ -47,9 +47,9 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table/>
-        <reference>cmn_department</reference>
-        <reference_qual>sys_created_on&gt;=javascript:gs.dateGenerate('2018-07-12','00:00:00')^EQ</reference_qual>
-        <reference_qual_condition table="cmn_department">sys_created_on&gt;=javascript:gs.dateGenerate('2018-07-12','00:00:00')^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.dateGenerate('2018-07-12','00:00:00')"/>
+        <reference>sys_user_group</reference>
+        <reference_qual>sys_updated_on&gt;=javascript:gs.dateGenerate('2018-07-12','00:00:00')^EQ</reference_qual>
+        <reference_qual_condition table="sys_user_group">sys_updated_on&gt;=javascript:gs.dateGenerate('2018-07-12','00:00:00')^EQ<item endquery="false" field="sys_updated_on" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.dateGenerate('2018-07-12','00:00:00')"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <scale_max>5</scale_max>
@@ -62,20 +62,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-06 23:54:05</sys_created_on>
         <sys_id>4ef883cb4f8313004c80aa2f9310c794</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Organization</sys_name>
         <sys_package display_value="Homark Event Managment" source="x_186163_homark_ev">7bb2a9344f2213004c80aa2f9310c7ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Homark Event Managment">7bb2a9344f2213004c80aa2f9310c7ae</sys_scope>
         <sys_update_name>item_option_new_4ef883cb4f8313004c80aa2f9310c794</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-13 00:45:49</sys_updated_on>
+        <sys_updated_on>2018-07-23 21:45:38</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <variable_name/>
         <variable_set display_value="Event Participant Registry - Karate">732bd9164fb213004c80aa2f9310c704</variable_set>
         <variable_width/>

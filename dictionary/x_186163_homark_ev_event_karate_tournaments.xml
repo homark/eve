@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="x_186163_homark_ev_event_registry" label="Event karate tournaments" max_length="40" name="x_186163_homark_ev_event_karate_tournaments" type="collection">
+    <element attributes="email_client=true" audit="true" extends="x_186163_homark_ev_event_registry" label="Event karate tournaments" max_length="40" name="x_186163_homark_ev_event_karate_tournaments" type="collection">
         <element label="Date of Birth" max_length="40" name="dob" type="glide_date"/>
+        <element label="Elite Kata" max_length="40" name="elite_kata" type="boolean"/>
+        <element label="Elite Kata Description" max_length="40" name="elite_kata_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
+        <element label="Elite Kobudo Long" max_length="40" name="elite_kobudo_long" type="boolean"/>
+        <element label="Elite Kobudo Long Description" max_length="40" name="elite_kobudo_long_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
+        <element label="Elite Kobudo Short" max_length="40" name="elite_kobudo_short" type="boolean"/>
+        <element label="Elite Kobudo Short Description" max_length="40" name="elite_kobudo_short_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
+        <element label="Elite Kumite" max_length="40" name="elite_kumite" type="boolean"/>
+        <element label="Elite Kumite Description" max_length="40" name="elite_kumite_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
+        <element label="Elite Team Kata" max_length="40" name="elite_team_kata" type="boolean"/>
+        <element label="Elite Team Kata Description" max_length="40" name="elite_team_kata_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
         <element label="Event" max_length="32" name="event" reference="x_186163_homark_ev_event_configuration" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Experience Level" max_length="40" name="experience_level" type="string">
             <choice>
@@ -16,25 +26,50 @@
         <element dependent="organization" dependent_on_field="organization" label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Kata" max_length="40" name="kata" type="boolean"/>
         <element label="Kumite" max_length="40" name="kumite" type="boolean"/>
-        <element label="Organization" max_length="32" name="organization" reference="cmn_department" type="reference"/>
+        <element label="Long Weapon" max_length="40" name="long_weapon" type="boolean"/>
+        <element label="Long Weapon" max_length="40" name="long_weapons" type="boolean"/>
+        <element label="Long Weapon Description" max_length="32" name="long_weapon_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
+        <element label="Long Weapon Descripton" max_length="40" name="long_weapon_descripton" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
+        <element label="Non Elite Kata" max_length="40" name="non_elite_kata" type="boolean"/>
+        <element label="Non Elite Kata Description" max_length="40" name="non_elite_kata_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
+        <element label="Non Elite Kumite" max_length="40" name="non_elite_kumite" type="boolean"/>
+        <element label="Non Elite Kumite" max_length="40" name="non_elite_kumite_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other School and Instructor" max_length="40" name="note" type="string"/>
+        <element label="Organization" max_length="32" name="organization" reference="sys_user_group" type="reference"/>
         <element label="Photo" max_length="65536" name="photo" type="user_image"/>
         <element label="Seminar" max_length="40" name="seminar" type="boolean"/>
+        <element label="Seminar1" max_length="40" name="seminar1" type="boolean"/>
+        <element label="Seminar2" max_length="40" name="seminar2" type="boolean"/>
+        <element label="Seminar3" max_length="40" name="seminar3" type="boolean"/>
+        <element label="Seminar4" max_length="40" name="seminar4" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" max_length="40" name="sex" type="string">
             <choice>
                 <element label="Male" sequence="0" value="male"/>
                 <element label="Female" sequence="1" value="female"/>
             </choice>
         </element>
+        <element label="Short Weapon" max_length="40" name="short_weapon" type="boolean"/>
+        <element label="Short Weapons" max_length="40" name="short_weapons" type="boolean"/>
+        <element label="Short Weapon Description" max_length="40" name="short_weapon_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
         <element label="Team" max_length="40" name="team" type="boolean"/>
+        <element label="Team Kata" max_length="40" name="team_kata" type="boolean"/>
+        <element label="Team Kata Both" max_length="40" name="team_kata_both" type="boolean"/>
+        <element label="Team Kata  Both Description" max_length="40" name="team_kata_both_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
+        <element label="Team Kata Description" max_length="40" name="team_kata_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
+        <element label="Team Kumite" max_length="40" name="team_kumite" type="boolean"/>
+        <element label="Team Kumite Description" max_length="40" name="team_kumite_description" reference="x_186163_homark_ev_event_karate_type" type="reference"/>
         <element label="Weapon" max_length="40" name="weapon" type="boolean"/>
         <element label="Weight" max_length="40" name="weight" type="integer"/>
         <index name="index">
             <element name="instructor"/>
         </index>
         <index name="index2">
-            <element name="organization"/>
+            <element name="long_weapon_description"/>
         </index>
         <index name="index3">
+            <element name="organization"/>
+        </index>
+        <index name="index4">
             <element name="event"/>
         </index>
     </element>

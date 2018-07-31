@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Event Karate Type" max_length="40" name="x_186163_homark_ev_event_karate_type" type="collection">
+        <element label="Both" max_length="40" name="both" type="string"/>
+        <element label="Category" max_length="40" name="category" type="string"/>
+        <element display="true" label="Description" max_length="100" name="description" type="string"/>
+        <element label="Division ID" max_length="40" name="division_id" type="string"/>
+        <element label="Female" max_length="40" name="female" type="string"/>
+        <element label="Level" max_length="40" name="level" type="string"/>
+        <element label="Male" max_length="40" name="male" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Sub category" max_length="40" name="sub_category" type="string"/>
+    </element>
+</database>
